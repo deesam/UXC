@@ -1,0 +1,34 @@
+{
+	"defaultSeverity": "error",
+	"extends": [
+		"tslint:recommended", "tslint-config-prettier"
+	],
+	"jsRules": {},
+	"rules": {
+		"prettier": true,
+		"arrow-parens": true,
+		"no-any": true,
+		"no-for-in-array": true,
+		"no-var-requires": true,
+
+		"curly": true,
+
+		"no-console": true,
+		"no-unsafe-finally": true,
+		"triple-equals": true,
+
+		"no-default-export": true,
+		"no-default-import": true,
+		"max-file-line-count": [true, "150"],
+		"max-classes-per-file": [true, 3, "exclude-class-expressions"],
+		"prefer-const": true,
+
+		"array-type": true,
+		"binary-expression-operand-order": true,
+		"class-name": true,
+		"file-header": true
+	},
+  "rulesDirectory": []
+  
+
+}
